@@ -9,6 +9,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
+	position: relative;
 	background-color: #f2f3f7;
 	font-family: "Montserrat", sans-serif;
 }
@@ -19,7 +21,7 @@
 	display: flex;
 	background-color: white;
 	border-radius: 50px;
-	padding: 20px;
+	padding: 25px;
 }
 
 .main-container__posts {
@@ -167,3 +169,13 @@
 	margin-top: 35px;
 	flex-direction: column;
 }
+
+.logo {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-top: 2.7%;
+	margin-left: 13%;
+}
+
+/* innerHTML styles */
